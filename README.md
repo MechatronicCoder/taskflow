@@ -21,8 +21,14 @@ python -m pytest -v
 
 ## Avance del proyecto
 - [x] Hito 1 — Repositorio, código base y pruebas locales
-- [ ] Hito 2 — GitHub Flow, CI/CD y GitHub Pages
+- [x] Hito 2 — GitHub Flow, CI/CD y GitHub Pages
 - [ ] Hito 3 — Jira, sprint e integración con GitHub
 
 ## Evidencias
-(Se completa en cada hito: enlaces a PRs, workflows, sitio publicado y Jira.)
+
+### Hito 2 — GitHub Flow + CI/CD
+- Sitio publicado: https://mechatroniccoder.github.io/taskflow/
+- PR #1 · Plantilla de PR: https://github.com/MechatronicCoder/taskflow/pull/1
+- PR #2 · Pipeline de CI: https://github.com/MechatronicCoder/taskflow/pull/2
+- PR #3 · Funcionalidad eliminar: https://github.com/MechatronicCoder/taskflow/pull/3
+- PR #4 · Despliegue en GitHub Pages: https://github.com/MechatronicCoder/taskflow/pull/4
