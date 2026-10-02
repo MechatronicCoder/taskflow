@@ -1,5 +1,7 @@
 # TaskFlow
 
+![CI](https://github.com/MechatronicCoder/taskflow/actions/workflows/ci.yml/badge.svg)
+
 Gestor de tareas en Python · Proyecto integrador del curso **DevOps & Project Management**.
 
 ## Equipo
