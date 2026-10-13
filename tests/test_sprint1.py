@@ -45,3 +45,9 @@ def test_resumen(gestor):
 
 def test_resumen_sin_tareas():
     assert GestorTareas().resumen()["avance"] == 0
+
+
+# TF-11 Bug: títulos duplicados
+def test_no_permite_titulos_duplicados(gestor):
+    with pytest.raises(ValueError):
+        gestor.agregar("  preparar DEMO ")
