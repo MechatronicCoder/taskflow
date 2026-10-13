@@ -50,6 +50,17 @@ class GestorTareas:
         if not texto:
             raise ValueError("El texto de búsqueda no puede estar vacío")
         return [t for t in self._tareas if texto in t.titulo.lower()]
+
+    def resumen(self):
+        total = len(self._tareas)
+        completadas = sum(1 for t in self._tareas if t.completada)
+        avance = round(completadas * 100 / total) if total else 0
+        return {
+            "total": total,
+            "completadas": completadas,
+            "pendientes": total - completadas,
+            "avance": avance,
+        }
     
     def eliminar(self, tarea_id):
         tarea = self.buscar(tarea_id)   # lanza KeyError si no existe
