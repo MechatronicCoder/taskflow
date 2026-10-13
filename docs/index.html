@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>TaskFlow</title>
   <style>
-    body { font-family: system-ui, sans-serif; max-width: 760px; margin: 40px auto; padding: 0 20px; background: #0a1230; color: #e9edff; }
+    body { font-family: system-ui, sans-serif; max-width: 760px; margin: 0 auto; padding: 40px 20px; min-height: 100vh; box-sizing: border-box; color: #e9edff; background: #0a1230 linear-gradient(160deg, #1b2d78 0%, #0a1230 45%, #0a1230 70%, #2a1650 100%) fixed; }
     h1 { color: #7d97ff; }
     .card { background: #121e4b; border: 1px solid #26356f; border-radius: 12px; padding: 16px 20px; margin: 16px 0; }
     a { color: #f2a649; }
@@ -14,7 +14,7 @@
 </head>
 <body>
   <h1>TaskFlow</h1>
-  <p>Gestor de tareas en Python · Proyecto integrador DevOps &amp; Project Management.</p>
+  <p>Gestor de tareas en Python · Proyecto integrador DevOps &amp; Project Management · v1.0.0</p>
   <p><img src="https://github.com/MechatronicCoder/taskflow/actions/workflows/ci.yml/badge.svg" alt="Estado del CI"></p>
 
   <div class="card">
@@ -28,6 +28,20 @@
       <li>Agregar tareas con prioridad</li>
       <li>Completar y listar tareas pendientes</li>
       <li>Eliminar tareas</li>
+      <li>Filtrar tareas por prioridad (TF-8)</li>
+      <li>Buscar tareas por texto (TF-9)</li>
+      <li>Resumen de avance: total, completadas, pendientes y % (TF-10)</li>
+      <li>Rechazo de títulos duplicados (TF-11)</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h2>Sprint 1</h2>
+    <ul>
+      <li>Meta: "Encontrar tareas rápido y conocer el avance"</li>
+      <li>13 de 13 puntos completados (TF-8 a TF-11)</li>
+      <li>Velocity: Sprint 0 = 11 pts · Sprint 1 = 13 pts</li>
+      <li>17 pruebas automáticas en Python 3.11, 3.12 y 3.13</li>
     </ul>
   </div>
 
@@ -36,7 +50,7 @@
     <ul>
       <li>✅ Hito 1 — Repositorio y código base</li>
       <li>✅ Hito 2 — GitHub Flow y CI/CD</li>
-      <li>⬜ Hito 3 — Jira y sprint</li>
+      <li>✅ Hito 3 — Jira y sprint</li>
     </ul>
   </div>
 
